@@ -13,6 +13,7 @@ namespace Hello_World
             Console.WriteLine("Hello World!");
             Console.WriteLine("This line 2. Wow!");
             Console.WriteLine("This line 3.");
+            HelloSayer.SayHello("dude");
             Console.ReadKey();
         }
     }
