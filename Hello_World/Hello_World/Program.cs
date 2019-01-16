@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Hello_World
 {
@@ -13,7 +9,12 @@ namespace Hello_World
             Console.WriteLine("Hello World!");
             Console.WriteLine("This line 2. Wow!");
             Console.WriteLine("This line 3.");
-            HelloSayer.SayHello("dude");
+
+            for (int line = 4; line <= 5; line++)
+            {
+                HelloSayer.SayHello("dude", line);
+            }
+
             Console.ReadKey();
         }
     }
