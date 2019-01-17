@@ -10,7 +10,7 @@ namespace Hello_World
             Console.WriteLine("This line 2. Wow!");
             Console.WriteLine("This line 3.");
 
-            for (int line = 4; line <= 5; line++)
+            for (int line = 4; line <= 6; line++)
             {
                 HelloSayer.SayHello("dude", line);
             }
