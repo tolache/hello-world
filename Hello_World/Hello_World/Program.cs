@@ -6,7 +6,7 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
-            HelloSayer.SayHello("World", 8);
+            HelloSayer.SayHello("World", 9);
             Console.ReadKey();
         }
     }
