@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Hello_World
+namespace HelloSayer
 {
-    class HelloSayer
+    public class HelloSayer
     {
         public static void SayHello(string name, int linesCount)
         {
