@@ -34,8 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HelloSayer, Version=1.0.23.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HelloSayer.1.0.23\lib\netstandard2.0\HelloSayer.dll</HintPath>
+    <Reference Include="HelloSayer, Version=1.0.24.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HelloSayer.1.0.24\lib\netstandard2.0\HelloSayer.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System" />
