@@ -3,15 +3,15 @@ using Newtonsoft.Json;
 
 namespace Hello_World
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
             HelloSayer.HelloSayer.SayHello("World", 2);
-            Console.WriteLine(useNewtonsoftJson());
+            Console.WriteLine(UseNewtonsoftJson());
             Console.ReadKey();
         }
-        private static string useNewtonsoftJson()
+        private static string UseNewtonsoftJson()
         {
             Account account = new Account
             {
